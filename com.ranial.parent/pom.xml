@@ -56,6 +56,6 @@
 
 	<modules>
 		<module>com.ranial.api</module>
-    <module>core</module>
+    <module>com.ranial.core</module>
   </modules>
 </project>

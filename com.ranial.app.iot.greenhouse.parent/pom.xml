@@ -54,9 +54,9 @@
 	</dependencies>
 
 	<modules>
-		<module>coap</module>
-		<module>publisher</module>
-		<module>sensor.simulator</module>
-		<module>sensor</module>
+		<module>com.ranial.app.iot.greenhouse.coap</module>
+		<module>com.ranial.app.iot.greenhouse.publisher</module>
+		<module>com.ranial.app.iot.greenhouse.sensor.simulator</module>
+		<module>com.ranial.app.iot.greenhouse.sensor</module>
 	</modules>
 </project>
