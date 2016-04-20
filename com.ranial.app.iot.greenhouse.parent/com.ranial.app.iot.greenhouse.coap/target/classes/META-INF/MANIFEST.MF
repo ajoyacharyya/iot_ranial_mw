@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1461081709833
+Build-Jdk: 1.8.0_74
+Built-By: ibm
+Bundle-Activator: com.ranial.app.iot.greenhouse.coap.GreenhouseCoapServe
+ r
+Bundle-ManifestVersion: 2
+Bundle-Name: greenhouse.coap
+Bundle-SymbolicName: com.ranial.app.iot.greenhouse.coap
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.ranial.app.iot.greenhouse.coap;version="0.0.1.SNAPSH
+ OT";uses:="com.ranial.app.iot.greenhouse.sensors,org.eclipse.californiu
+ m.core,org.eclipse.californium.core.server.resources,org.osgi.framework
+ "
+Import-Package: com.ranial.app.iot.greenhouse.sensors,org.eclipse.califo
+ rnium.core,org.eclipse.californium.core.coap,org.eclipse.californium.co
+ re.server.resources,org.osgi.framework;version="[1.6,2)",org.slf4j;vers
+ ion="[1.6,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,28 @@
+/*******************************************************************************
+ * Copyright (c) 2011, 2016 Eurotech and/or its affiliates
+ *
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *     Eurotech
+ *******************************************************************************/
+package com.ranial.api.gpio;
+
+import com.ranial.api.KuraErrorCode;
+import com.ranial.api.KuraException;
+
+public class KuraGPIODeviceException extends KuraException {
+
+	private static final long serialVersionUID = -1750311704822256084L;
+
+	public KuraGPIODeviceException(Object argument) {
+		super(KuraErrorCode.GPIO_EXCEPTION, null, argument);
+	}
+	
+	public KuraGPIODeviceException(Throwable cause, Object argument) {
+		super(KuraErrorCode.GPIO_EXCEPTION, cause, argument);
+	}
+}
