@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1461130554168
+Bnd-LastModified: 1461140224468
 Build-Jdk: 1.8.0_74
 Built-By: ibm
 Bundle-Activator: com.ranial.app.iot.greenhouse.coap.GreenhouseCoapServe
@@ -9,9 +9,9 @@ Bundle-Name: greenhouse.publisher
 Bundle-SymbolicName: com.ranial.app.iot.greenhouse.publisher
 Bundle-Version: 0.0.1.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Import-Package: com.ranial.api,com.ranial.api.configuration,com.ranial.a
- pi.data,com.ranial.app.iot.greenhouse.coap,com.ranial.app.iot.greenhous
- e.sensors,org.osgi.service.component;version="[1.2,2)",org.slf4j;versio
- n="[1.6,2)"
+Import-Package: com.ranial.api;version="[0.0,1)",com.ranial.api.configur
+ ation;version="[0.0,1)",com.ranial.api.data;version="[0.0,1)",com.rania
+ l.app.iot.greenhouse.coap,com.ranial.app.iot.greenhouse.sensors,org.osg
+ i.service.component;version="[1.2,2)",org.slf4j;version="[1.6,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
 Tool: Bnd-3.0.0.201509101326

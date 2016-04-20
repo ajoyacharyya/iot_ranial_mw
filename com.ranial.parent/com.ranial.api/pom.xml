@@ -9,6 +9,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>api</artifactId>
+	<packaging>bundle</packaging>
 	<name>com.ranial.api</name>
 	<url>http://maven.apache.org</url>
 	<properties>
